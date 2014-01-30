@@ -1,14 +1,14 @@
 //
-//  CardGameViewController.h
+//  PlayingCardDeck.h
 //  Matchismo
 //
 //  Created by Benjamin SENECHAL on 30/01/2014.
 //  Copyright (c) 2014 Benjamin SENECHAL. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "PlayingCardDeck.h"
+#import "Deck.h"
+#import "PlayingCard.h"
 
-@interface CardGameViewController : UIViewController
+@interface PlayingCardDeck : Deck
 
 @end

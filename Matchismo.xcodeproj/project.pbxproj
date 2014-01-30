@@ -15,7 +15,6 @@
 		914845A0189A504900CB05F1 /* CardGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9148459F189A504900CB05F1 /* CardGameAppDelegate.m */; };
 		914845A3189A504900CB05F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914845A1189A504900CB05F1 /* Main.storyboard */; };
 		914845A6189A504900CB05F1 /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 914845A5189A504900CB05F1 /* CardGameViewController.m */; };
-		914845A8189A504900CB05F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914845A7189A504900CB05F1 /* Images.xcassets */; };
 		914845AF189A504900CB05F1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 914845AE189A504900CB05F1 /* XCTest.framework */; };
 		914845B0189A504900CB05F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9148458F189A504900CB05F1 /* Foundation.framework */; };
 		914845B1189A504A00CB05F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91484593189A504900CB05F1 /* UIKit.framework */; };
@@ -23,6 +22,9 @@
 		914845BB189A504A00CB05F1 /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 914845BA189A504A00CB05F1 /* MatchismoTests.m */; };
 		914845C6189A520900CB05F1 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 914845C5189A520900CB05F1 /* Card.m */; };
 		914845CA189A555C00CB05F1 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 914845C9189A555C00CB05F1 /* PlayingCard.m */; };
+		914845CD189A5F2E00CB05F1 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 914845CC189A5F2E00CB05F1 /* Deck.m */; };
+		914845D0189A654700CB05F1 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 914845CF189A654700CB05F1 /* PlayingCardDeck.m */; };
+		914845D2189A6E4400CB05F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914845D1189A6E4400CB05F1 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +51,6 @@
 		914845A2189A504900CB05F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		914845A4189A504900CB05F1 /* CardGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
 		914845A5189A504900CB05F1 /* CardGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
-		914845A7189A504900CB05F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		914845AD189A504900CB05F1 /* MatchismoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchismoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		914845AE189A504900CB05F1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		914845B6189A504A00CB05F1 /* MatchismoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchismoTests-Info.plist"; sourceTree = "<group>"; };
@@ -59,6 +60,11 @@
 		914845C5189A520900CB05F1 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Matchismo/Model/Card.m; sourceTree = "<group>"; };
 		914845C8189A555C00CB05F1 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCard.h; path = Matchismo/Model/PlayingCard.h; sourceTree = "<group>"; };
 		914845C9189A555C00CB05F1 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Matchismo/Model/PlayingCard.m; sourceTree = "<group>"; };
+		914845CB189A5F2E00CB05F1 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Matchismo/Model/Deck.h; sourceTree = "<group>"; };
+		914845CC189A5F2E00CB05F1 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Matchismo/Model/Deck.m; sourceTree = "<group>"; };
+		914845CE189A654700CB05F1 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Matchismo/Model/PlayingCardDeck.h; sourceTree = "<group>"; };
+		914845CF189A654700CB05F1 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Matchismo/Model/PlayingCardDeck.m; sourceTree = "<group>"; };
+		914845D1189A6E4400CB05F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +127,8 @@
 				914845A1189A504900CB05F1 /* Main.storyboard */,
 				914845A4189A504900CB05F1 /* CardGameViewController.h */,
 				914845A5189A504900CB05F1 /* CardGameViewController.m */,
+				914845D1189A6E4400CB05F1 /* Images.xcassets */,
 				914845C7189A521A00CB05F1 /* Model */,
-				914845A7189A504900CB05F1 /* Images.xcassets */,
 				91484596189A504900CB05F1 /* Supporting Files */,
 			);
 			path = Matchismo;
@@ -166,6 +172,10 @@
 				914845C5189A520900CB05F1 /* Card.m */,
 				914845C8189A555C00CB05F1 /* PlayingCard.h */,
 				914845C9189A555C00CB05F1 /* PlayingCard.m */,
+				914845CB189A5F2E00CB05F1 /* Deck.h */,
+				914845CC189A5F2E00CB05F1 /* Deck.m */,
+				914845CE189A654700CB05F1 /* PlayingCardDeck.h */,
+				914845CF189A654700CB05F1 /* PlayingCardDeck.m */,
 			);
 			name = Model;
 			path = ..;
@@ -248,7 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				914845A8189A504900CB05F1 /* Images.xcassets in Resources */,
+				914845D2189A6E4400CB05F1 /* Images.xcassets in Resources */,
 				9148459A189A504900CB05F1 /* InfoPlist.strings in Resources */,
 				914845A3189A504900CB05F1 /* Main.storyboard in Resources */,
 			);
@@ -273,6 +283,8 @@
 				914845A6189A504900CB05F1 /* CardGameViewController.m in Sources */,
 				9148459C189A504900CB05F1 /* main.m in Sources */,
 				914845CA189A555C00CB05F1 /* PlayingCard.m in Sources */,
+				914845D0189A654700CB05F1 /* PlayingCardDeck.m in Sources */,
+				914845CD189A5F2E00CB05F1 /* Deck.m in Sources */,
 				914845C6189A520900CB05F1 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
