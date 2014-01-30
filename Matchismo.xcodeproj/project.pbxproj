@@ -25,6 +25,7 @@
 		914845CD189A5F2E00CB05F1 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 914845CC189A5F2E00CB05F1 /* Deck.m */; };
 		914845D0189A654700CB05F1 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 914845CF189A654700CB05F1 /* PlayingCardDeck.m */; };
 		914845D2189A6E4400CB05F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914845D1189A6E4400CB05F1 /* Images.xcassets */; };
+		914845D5189A891C00CB05F1 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 914845D4189A891C00CB05F1 /* CardMatchingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		914845CE189A654700CB05F1 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Matchismo/Model/PlayingCardDeck.h; sourceTree = "<group>"; };
 		914845CF189A654700CB05F1 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Matchismo/Model/PlayingCardDeck.m; sourceTree = "<group>"; };
 		914845D1189A6E4400CB05F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		914845D3189A891C00CB05F1 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Matchismo/Model/CardMatchingGame.h; sourceTree = "<group>"; };
+		914845D4189A891C00CB05F1 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Matchismo/Model/CardMatchingGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +179,8 @@
 				914845CC189A5F2E00CB05F1 /* Deck.m */,
 				914845CE189A654700CB05F1 /* PlayingCardDeck.h */,
 				914845CF189A654700CB05F1 /* PlayingCardDeck.m */,
+				914845D3189A891C00CB05F1 /* CardMatchingGame.h */,
+				914845D4189A891C00CB05F1 /* CardMatchingGame.m */,
 			);
 			name = Model;
 			path = ..;
@@ -283,6 +288,7 @@
 				914845A6189A504900CB05F1 /* CardGameViewController.m in Sources */,
 				9148459C189A504900CB05F1 /* main.m in Sources */,
 				914845CA189A555C00CB05F1 /* PlayingCard.m in Sources */,
+				914845D5189A891C00CB05F1 /* CardMatchingGame.m in Sources */,
 				914845D0189A654700CB05F1 /* PlayingCardDeck.m in Sources */,
 				914845CD189A5F2E00CB05F1 /* Deck.m in Sources */,
 				914845C6189A520900CB05F1 /* Card.m in Sources */,

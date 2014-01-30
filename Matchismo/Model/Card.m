@@ -34,7 +34,7 @@
 - (int)match:(NSArray *)otherCards{
     int score = 0;
     
-    for (Card *card in otherCards){
+    for(Card *card in otherCards){
         score = 1;
     }
     
