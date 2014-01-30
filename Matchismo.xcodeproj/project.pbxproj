@@ -21,6 +21,8 @@
 		914845B1189A504A00CB05F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91484593189A504900CB05F1 /* UIKit.framework */; };
 		914845B9189A504A00CB05F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 914845B7189A504A00CB05F1 /* InfoPlist.strings */; };
 		914845BB189A504A00CB05F1 /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 914845BA189A504A00CB05F1 /* MatchismoTests.m */; };
+		914845C6189A520900CB05F1 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 914845C5189A520900CB05F1 /* Card.m */; };
+		914845CA189A555C00CB05F1 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 914845C9189A555C00CB05F1 /* PlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		914845B6189A504A00CB05F1 /* MatchismoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchismoTests-Info.plist"; sourceTree = "<group>"; };
 		914845B8189A504A00CB05F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		914845BA189A504A00CB05F1 /* MatchismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchismoTests.m; sourceTree = "<group>"; };
+		914845C4189A520900CB05F1 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Matchismo/Model/Card.h; sourceTree = "<group>"; };
+		914845C5189A520900CB05F1 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Matchismo/Model/Card.m; sourceTree = "<group>"; };
+		914845C8189A555C00CB05F1 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCard.h; path = Matchismo/Model/PlayingCard.h; sourceTree = "<group>"; };
+		914845C9189A555C00CB05F1 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Matchismo/Model/PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +118,10 @@
 		91484595189A504900CB05F1 /* Matchismo */ = {
 			isa = PBXGroup;
 			children = (
-				9148459E189A504900CB05F1 /* CardGameAppDelegate.h */,
-				9148459F189A504900CB05F1 /* CardGameAppDelegate.m */,
 				914845A1189A504900CB05F1 /* Main.storyboard */,
 				914845A4189A504900CB05F1 /* CardGameViewController.h */,
 				914845A5189A504900CB05F1 /* CardGameViewController.m */,
+				914845C7189A521A00CB05F1 /* Model */,
 				914845A7189A504900CB05F1 /* Images.xcassets */,
 				91484596189A504900CB05F1 /* Supporting Files */,
 			);
@@ -126,6 +131,8 @@
 		91484596189A504900CB05F1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9148459E189A504900CB05F1 /* CardGameAppDelegate.h */,
+				9148459F189A504900CB05F1 /* CardGameAppDelegate.m */,
 				91484597189A504900CB05F1 /* Matchismo-Info.plist */,
 				91484598189A504900CB05F1 /* InfoPlist.strings */,
 				9148459B189A504900CB05F1 /* main.m */,
@@ -150,6 +157,18 @@
 				914845B7189A504A00CB05F1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		914845C7189A521A00CB05F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				914845C4189A520900CB05F1 /* Card.h */,
+				914845C5189A520900CB05F1 /* Card.m */,
+				914845C8189A555C00CB05F1 /* PlayingCard.h */,
+				914845C9189A555C00CB05F1 /* PlayingCard.m */,
+			);
+			name = Model;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +272,8 @@
 				914845A0189A504900CB05F1 /* CardGameAppDelegate.m in Sources */,
 				914845A6189A504900CB05F1 /* CardGameViewController.m in Sources */,
 				9148459C189A504900CB05F1 /* main.m in Sources */,
+				914845CA189A555C00CB05F1 /* PlayingCard.m in Sources */,
+				914845C6189A520900CB05F1 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
